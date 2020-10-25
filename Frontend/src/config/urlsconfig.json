@@ -1,0 +1,30 @@
+{
+    "login" : {
+        "uri" : "/blog/login",
+        "method": "POST"
+    },
+    "signup" : {
+        "uri" : "/blog/signup",
+        "method" : "POST"
+    },
+    "addblog" : {
+        "uri" : "/blog/api/user/:userId/content",
+        "method" : "POST"
+    },
+    "getblog" : {
+        "uri" : "/blog/api/user/:userId/content/:id",
+        "method" : "GET"
+    },
+    "getblogs":{
+        "uri" : "/blog/api/user/:userId/content",
+        "method" : "GET"
+    },
+    "editblog" : {
+        "uri" : "/blog/api/user/:userId/content/:id",
+        "method" : "PUT"
+    },
+    "deleteblog" : {
+        "uri" :"/blog/api/user/:userId/content/:id",
+        "method" : "DELETE"
+    }
+}
